@@ -1,0 +1,9 @@
+body{
+    background-image: url("/img/pokemon-battle.jpg");
+}
+.main__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 20%;
+}
