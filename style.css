@@ -1,5 +1,10 @@
 body {
   background-image: url("/img/pokeball.jpg");
+  font-family: 'Segoe UI', sans-serif;
+}
+
+p{
+  color: white;
 }
 
 .title {
@@ -7,7 +12,6 @@ body {
   justify-content: center;
   color: rgba(34, 5, 148, 0.833);
   font-size: 80px;
-  font-family: 'Segoe UI', sans-serif;
   animation: moveLetters 5s infinite;
 }
 
@@ -15,7 +19,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 20%;
+  margin-top: 3%;
 }
 
 .first__pokemon__container {
