@@ -27,6 +27,15 @@ p{
   width: 10%;
 }
 
+.fight__button{
+  color: rgba(34, 5, 148, 0.833);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+}
+
 @keyframes moveLetters {
   0% {
     transform: translateX(0);

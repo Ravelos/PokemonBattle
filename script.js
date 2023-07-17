@@ -1,8 +1,10 @@
 const dropdownSelect = document.getElementById('dropdownSelect');
 const pokemonImageContainer = document.getElementById('pokemonImageContainer');
+
 const dropdownSelect2 = document.getElementById('dropdownSelect2');
 const pokemonImageContainer2 = document.getElementById('pokemonImageContainer2');
 
+const fightButton = document.getElementsByClassName('fight__button');
 
 dropdownSelect.addEventListener('change', () => {
   const selectedOption = dropdownSelect.value;
@@ -51,7 +53,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/?limit=10&offset=0')
   .then(data => {
     const results = data.results;
 
-    // Crea las opciones del select
+    // Crea las opciones del select para el segundo pokemon
     results.forEach(result => {
       const option = document.createElement('option');
       option.value = result.name;
