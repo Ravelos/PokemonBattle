@@ -22,7 +22,7 @@ p{
   margin-top: 3%;
 }
 
-.first__pokemon__container {
+.first__pokemon__container .second__pokemon__container {
   border-radius: 20%;
   width: 10%;
 }
